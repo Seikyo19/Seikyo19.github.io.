@@ -88,9 +88,3 @@ body {
   pointer-events: none;
   transform: rotate(-2deg);
 }
-img {
-  position: absolute;
-  top: 65%;
-  left: 60.5%;
-
-}
