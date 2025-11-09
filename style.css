@@ -37,8 +37,8 @@ body {
 .letter {
   display: none;
   position: absolute;
-  top: 60%;
-  left: 65%;
+  top: 5%;
+  left: 55%;
   transform: translate( -80% , -90%);
   background: repeating-linear-gradient(
     to bottom,
@@ -49,9 +49,9 @@ body {
   color: #333;
   padding: 30px 30px 30px 70px;
   border-radius: 10px;
-  width: 80%;
+  width: 70%;
   max-width: 600px;
-  height: 700px;
+  height: 100px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   font-size: 1.1rem;
   line-height: 1.6;
@@ -88,3 +88,4 @@ body {
   pointer-events: none;
   transform: rotate(-2deg);
 }
+
