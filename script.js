@@ -1,4 +1,5 @@
-const message = 'AYOKO PUMUNTA KAPAG DI UMINOM SI KELZIE GAMOT'
+const message = `G DAW SI SAII WAHHH
+(d pa talaga natanong)`;
 
 function showLetter() {
   document.getElementById("introText").style.opacity = 0;
@@ -14,11 +15,10 @@ function showLetter() {
       if (i < message.length) {
         typedText.innerHTML += message.charAt(i);
         i++;
-        setTimeout(typeWriter, 30);
+        setTimeout(typeWriter, 300);
       }
     }
     
     typeWriter();
   }, 600);
-
 }
