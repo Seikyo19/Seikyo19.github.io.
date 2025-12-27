@@ -25,7 +25,7 @@ const heartButtons = document.querySelectorAll(".btn, .btn2");
 
 heartButtons.forEach(btn => {
   btn.addEventListener("click", (e) => {
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 5; i++) {
       createHeart(e.clientX, e.clientY);
     }
   });
@@ -36,9 +36,9 @@ function createHeart(x, y) {
   heart.className = "heart";
   heart.textContent = "🤍";
 
-  heart.style.left = x + (Math.random() * 20 - 20) + "px";
-  heart.style.top = y + (Math.random() * 20 - 20) + "px";
-  heart.style.fontSize = Math.random() * 75 + 15 + "px";
+  heart.style.left = x + (Math.random() * 70 - 10) + "px";
+  heart.style.top = y + (Math.random() * 1 - 90) + "px";
+  heart.style.fontSize = Math.random() * 90 + 65 + "px";
 
   document.body.appendChild(heart);
 
@@ -46,4 +46,4 @@ function createHeart(x, y) {
     heart.remove();
   }, 20000);
 }
-  }
+}
