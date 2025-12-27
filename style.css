@@ -103,7 +103,7 @@ body {
   .heart {
   position: absolute;
   pointer-events: none;
-  font-size: 20px;
+  font-size: 10px;
   animation: floatUp 10s ease-out forwards;
 }
 
@@ -113,7 +113,7 @@ body {
     opacity: 1;
   }
   100% {
-    transform: translateY(-120px) scale(1.5);
+    transform: translateY(-120px) scale(3);
     opacity: 0;
   }
-}
+  }
