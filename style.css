@@ -38,7 +38,7 @@ body {
 .letter {
   display: none;
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 72.5%;
   transform: translate( -80% , -90%);
   background: repeating-linear-gradient(
@@ -125,4 +125,5 @@ body {
   pointer-events: none;
   z-index: -1;
   }
+
 
