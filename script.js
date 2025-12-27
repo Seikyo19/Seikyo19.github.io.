@@ -47,3 +47,19 @@ function createHeart(x, y) {
   }, 20000);
 }
 }
+function createBackgroundHearts(count = 30) {
+  for (let i = 0; i < count; i++) {
+    const heart = document.createElement("div");
+    heart.className = "bg-heart";
+    heart.textContent = "❤️";
+
+    heart.style.top = Math.random() * 100 + "vh";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = Math.random() * 20 + 15 + "px";
+    heart.style.opacity = Math.random() * 0.3 + 0.1;
+
+    document.body.appendChild(heart);
+  }
+}
+
+createBackgroundHearts(200);
